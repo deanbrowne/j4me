@@ -1,3 +1,5 @@
+#summary Release policies and version history.
+
 = Policies =
 
 === Version Numbering ===

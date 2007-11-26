@@ -1,0 +1,17 @@
+= Policies =
+
+=== Version Numbering ===
+
+J4ME releases follow the `major.minor.fix` version numbering convention.  For example 2.0.4 would mean the second major release, first minor release for this major release, and fourth bug fixing patch.
+ * _Major releases_ add new packages of functionality or significant improvements to existing packages
+ * _Minor releases_ add new classes or batches of methods to existing packages
+ * _Fix releases_ only fix bugs (although they may add methods as part of the bug fixes)
+
+=== Deprecation ===
+
+Deprecation of classes and methods can happen on any major or minor release.  Anything that is deprecated will have some alternate method suggested.  Deprecated classes and methods  may only removed on a major release (they will be kept as long as they do not require significant effort to keep up).
+
+= Release History =
+
+|| *Version* || *Date*     || *Notes*         ||
+|| 1.0.0     || 11/26/2007 || Public release. ||

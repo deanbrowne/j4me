@@ -11,7 +11,10 @@ The J4ME Logging framework helps solve the many problems found in variations bet
 
 = Details =
 
-Debugging on emulators is great.  However, J2ME implementations vary _a lot_.  So when you move your code onto a phone and run it debugging becomes difficult to impossible.  J4ME Logging helps by letting you see the internal state of your application.
+|| http://j4me.googlecode.com/svn/website/img/LogScreen.png || http://j4me.googlecode.com/svn/website/img/LogConsole.png ||
+|| ^Log on a cell phone^ || ^Log in the Eclipse console^ ||
+
+Debugging on emulators is great.  However, J2ME implementations vary _a lot_.  So when you move your code onto a phone debugging becomes next to impossible.  J4ME Logging helps by letting you see the internal state of your application.
 
 J4ME Logging is similar to Log4J or the Java Standard Edition's `java.util.logging` package.  However it has been designed for a device environment so it is not very configurable and output is limited.
 

@@ -17,7 +17,7 @@ The J4ME Bluetooth GPS package wraps and extends JSR-179.  The added functionali
 
 Another advantage of J4ME Bluetooth GPS is that it brings consistency to JSR-179 implementations.  For example newer BlackBerry phones support JSR-179 access to their integrated GPS chips.  However the BlackBerry platform raises location events on the main UI thread which often leads to unresponsive applications that sometimes even crash.  The J4ME Bluetooth GPS implementation moves these events to a background thread without you doing any work.
 
-|| GPSDemoScreen.png ||
+|| http://j4me.googlecode.com/svn/website/img/GPSDemoScreen.png ||
 || *Location data from the phone or external GPS* ||
 
 = Recommended Bluetooth GPS =

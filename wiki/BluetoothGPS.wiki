@@ -17,6 +17,9 @@ The J4ME Bluetooth GPS package wraps and extends JSR-179.  The added functionali
 
 Another advantage of J4ME Bluetooth GPS is that it brings consistency to JSR-179 implementations.  For example newer BlackBerry phones support JSR-179 access to their integrated GPS chips.  However the BlackBerry platform raises location events on the main UI thread which often leads to unresponsive applications that sometimes even crash.  The J4ME Bluetooth GPS implementation moves these events to a background thread without you doing any work.
 
+|| GPSDemoScreen.png ||
+|| *Location data from the phone or external GPS* ||
+
 = Recommended Bluetooth GPS =
 
 Bluetooth GPS pucks are all fairly similar.  There are slight variations in chipsets but the main differentiators are price, battery life, and packaging.  We have tried a dozen of these over the past year and our recommendation is the !OnCourse Edition 3 which costs $50 and is about the size of matchbox.  You can purchase it through the link below (it comes with a car charger but not a wall charger; if you do not have a mini-USB charger a cheap one that works with it is listed alongside).

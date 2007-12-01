@@ -1,4 +1,5 @@
 #summary Release policies and version history.
+#labels Featured
 
 = Policies =
 

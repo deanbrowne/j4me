@@ -18,3 +18,4 @@ Deprecation of classes and methods can happen on any major or minor release.  An
 
 || *Version* || *Date*     || *Notes*         ||
 || 1.0.0     || 11/26/2007 || Public release. ||
+|| 1.0.1     || 12/12/2007 || Minor bug fixes for issues 1, 2, and 4:  Improved screen size handling, support for the Tao JVM on Windows Mobile, and works when obfuscated by ProGuard 4.0 ||

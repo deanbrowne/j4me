@@ -20,6 +20,10 @@ Another advantage of J4ME Bluetooth GPS is that it brings consistency to JSR-179
 || http://j4me.googlecode.com/svn/website/img/GPSDemoScreen.png ||
 || *Location data from the phone or external GPS* ||
 
+== Requirements ==
+
+Requires CLDC 1.1/MIDP 2.0.  It also requires JSR-82 (the Bluetooth API) to use Bluetooth GPS and/or JSR-179 (the Location API).  So a phone that has only Bluetooth API support and not Location API support can use Bluetooth GPS.
+
 = Recommended Bluetooth GPS =
 
 Bluetooth GPS pucks are all fairly similar.  There are slight variations in chipsets but the main differentiators are price, battery life, and packaging.  We have tried a dozen of these over the past year and our recommendation is the !OnCourse Edition 3 which costs $50 and is about the size of matchbox.  You can purchase it through the link below (it comes with a car charger but not a wall charger; if you do not have a mini-USB charger a cheap one that works with it is listed alongside).

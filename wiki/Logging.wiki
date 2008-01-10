@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary A logging package similar to Log4J but optimized for mobile devices.
 
 = Introduction =
 
@@ -19,3 +19,7 @@ If you require more logging functionality you may want to consider [http://micro
 
 || http://j4me.googlecode.com/svn/website/img/LogScreen.png || http://j4me.googlecode.com/svn/website/img/LogConsole.png ||
 || *Log on your cell phone* || *Log to the Eclipse console* ||
+
+== Requirements ==
+
+Runs on any J2ME device.  (I.e. it only uses CLDC 1.0/MIDP 1.0.)

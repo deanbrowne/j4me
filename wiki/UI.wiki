@@ -24,3 +24,7 @@ Don't just take our word for it.  Everyone does it.  The most popular J2ME appli
 
 || http://j4me.googlecode.com/svn/website/img/ScoreOutCaddieScreenshot.gif || http://j4me.googlecode.com/svn/website/img/SplashScreen.gif || http://j4me.googlecode.com/svn/website/img/EtchASketch.png ||
 || *Complex free-form screens* || *Splash screens* || *Theme your applications* ||
+
+== Requirements ==
+
+Requires CLDC 1.1/MIDP 2.0.  It uses the J4ME logging package to help diagnose problems.

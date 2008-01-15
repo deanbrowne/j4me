@@ -32,7 +32,7 @@ _3 minutes_
 
 Part of the obfuscation process is removing unused classes.  If you do not use part of the J4ME library, obfuscation will remove that class from your Jar.
 
- # Download [http://proguard.sourceforge.net/ ProGuard]
+ # Download [http://proguard.sourceforge.net/ ProGuard] (4.1 or later)
  # Unzip it and remember where (you'll need this later)
 
 == J2MEUnit ==

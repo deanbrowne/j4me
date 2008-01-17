@@ -16,6 +16,16 @@ Deprecation of classes and methods can happen on any major or minor release.  An
 
 = Release History =
 
-|| *Version* || *Date*     || *Notes*         ||
-|| 1.0.0     || 11/26/2007 || Public release. ||
-|| 1.0.1     || 12/12/2007 || Minor bug fixes for issues 1, 2, and 4:  Improved screen size handling, support for the Tao JVM on Windows Mobile, and works when obfuscated by ProGuard 4.0 ||
+ * 1.0.2 (Jan 16, 2008)
+   * Fixed issue 6:  Obfuscated using !ProGuard 4.1 so it runs on Nokia Series 3 phones
+   * Fixed issue 7:  Log demo works on certain Sony Ericsson phones
+   * Fixed issue 8:  Bluetooth GPS works on Motorola phones paired with the Nokia LD-3W Bluetooth GPS device
+   * Fixed issue 9:  Removing UI components from a dialog no longer can cause an `ArrayOutBoundsException`
+   * Fixed issue 10:  Bluetooth GPS reports speed in meters per second instead of knots
+   * Added more robust exception handling and logging for UI unexpected exceptions
+ * 1.0.1 (Dec 12, 2007)
+   * Fixed issue 1:  Improved screen size handling
+   * Fixed issue 2 and issue 4:  Support for the Tao JVM on Windows Mobile
+   * Fixed problem with `TextBox` component to work when obfuscated by !ProGuard 4.0
+ * 1.0.0 (Nov 26, 2007)
+   * Initial public release

@@ -16,6 +16,16 @@ Deprecation of classes and methods can happen on any major or minor release.  An
 
 = Release History =
 
+ * 1.0.3 (May 9, 2008)
+   * Fixed issue 13:  The size of the HorizontalRule component can be changed
+   * Fixed issue 14:  The border width of the selection rectangle for components is correct even for tall components
+   * Fixed issue 18:  The Label component returns the correct preferred size
+   * Fixed issue 21:  Scroll behavior has been fixed for groups of components that do not accept input and total more than the screen size
+   * Fixed issue 27:  Components taller than the screen no longer cause exceptions
+   * Fixed issue 28:  When components update the scroll position is maintained (it no longer returns to the top)
+   * Fixed issue 29:  Component.show() has been renamed to .visible() to remove the ambiguity of its purpose
+   * Fixed issue 35:  Changing a screen between full screen mode causes a Dialog to be invalidated so components are properly laid out
+   * Fixed issue 38:  JSR-179 implementations no longer cause a null pointer exception when calling getLastKnownLocation before a fix has been acquired
  * 1.0.2 (Jan 16, 2008)
    * Fixed issue 6:  Obfuscated using !ProGuard 4.1 so it runs on Nokia Series 3 phones
    * Fixed issue 7:  Log demo works on certain Sony Ericsson phones
